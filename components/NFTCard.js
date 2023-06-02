@@ -2,7 +2,6 @@ import { ThirdwebNftMedia } from "@thirdweb-dev/react";
 import styles from "../styles/Home.module.css";
 import Link from "next/link";
 
-
 export const NFTCard = ({ nft }) => {
   return (
     <Link href={`/nft/${nft.metadata.id}`}>
